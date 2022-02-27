@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon"  href="./bilder/logo.png" />
+    <link rel="stylesheet" href="fun.css">
+   
+   
+    <title>Fun</title>
+</head>
+<body>
+    <header id="nheader">
+        <nav>
+        <div class="header-div">
+             <img src="./bilder/logo.png" alt="bilde-logo">
+             </div>
+             <label for="button-liste">&#9776;</label>
+        <input type="checkbox" id="button-liste"/>
+        
+        <ul id="liste-Home" >
+          <li><a href="index.html"> Hjem</a></li>
+          <li><a href="Reflection-essay.html">Refleksjon </a></li>
+          <li><a href="accessibility.html">Tilgjengelighet </a></li>
+          <li><a href="Topical-Information.html"> Aktuelt</a></li>
+          <li><a href="fun.html">Moro</a></li>
+      </ul>
+        </nav>
+     
+    </header>
+
+  <h2> Hello, her er Mimo </h2>
+  <p>Trykk for å høre my life story</p>
+
+  <audio controls>
+   <source src="audio/Audio.2022-02-22.at.13.50.30.mp3" type="audio/mp3">
+    </audio>
+ 
+  <div>
+    <p>Jeg vil sove , kan du slå av lyset?</p>
+   
+</div>
+  
+  <button onclick="myFunction()">klikk her for å slå av lyset</button>
+  
+  <div class="kontainer">
+    <div class="face">  </div>
+    <div class="nose"> </div>
+    <div class="eye1"> </div> 
+    <div class="eye1 eye2"> </div> 
+    <div class="hair">
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+
+  </div>
+<div class="cite-fun">
+<cite> <a href="https://github.com/radouane-tamouss/ferb-fletcher-css">Vi fikk hjelp av denne siden</a></cite>
+</div>
+<p id="demo"></p>
+
+  <script>
+    function myFunction() {
+       var element = document.body;
+       element.classList.toggle("dark-mode");
+    }
+</script>
+
+</body>
+</html>

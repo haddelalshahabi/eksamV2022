@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="nb">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accessibility</title>
+    <link rel="shortcut icon"  href="./bilder/logo.png" />
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <header id="nheader">
+        <nav>
+        <div class="header-div">
+             <img src="./bilder/logo.png" alt="bilde-logo">
+             </div>
+             <label for="button-liste">&#9776;</label>
+        <input type="checkbox" id="button-liste"/>
+        
+        <ul id="liste-Home" >
+            <li><a href="index.html"> Hjem</a></li>
+            <li><a href="Reflection-essay.html">Refleksjon </a></li>
+            <li><a href="accessibility.html">Tilgjengelighet </a></li>
+            <li><a href="Topical-Information.html"> Aktuelt</a></li>
+            <li><a href="fun.html">Moro</a></li>
+        </ul>
+        </nav>
+    </header>
+    
+    <main> 
+        <section class="Accessibility" >
+            
+                <div class="Access Access1">
+                    
+                    <h2>Hva er tilgjengelighet? </h2>
+                    <p>
+                       <a href="https://no.wikipedia.org/wiki/Tilgjengelighet">Tilgjengelighet</a> handler om at webområder, verktøy og teknologier utformes og utvikles slik at personer med spesielle behov kan bruke dem.
+                         Poenget er at så mange som mulig målgrupper får bruk av nettsidene våre slik at noen målgrupper med spesielle behov ikke blir utelatt.
+                          Ved hjelp av tilgjengelighet vil folk kunne oppfatte, forstå, navigere og samhandle med web-en.
+                           Derfor må tilgjengeligheten til nettsider være tilpasset til mennesker med for eksempel nedsatt evne som syn,
+                            hørsel, tale, blindhet, fargeblindhet og mye mer.
+                    </p>
+                    <p>
+                        Vi bruker Siteimprove <a href="https://siteimprove.com/nb-no/accessibility/sjekk-wcag-samsvar-nettsted/?utm_campaign=no_fy20_ppc_accessibility&utm_source=google&utm_medium=ppc&utm_content=wcag&utm_term=wcag+guidelines&campaign_id=11197313445&ad_group_id=126703848456&ad_id=541097697963&match_type=b&target=kwd-297836296010&gclid=EAIaIQobChMIstvYsZOY9gIVKkiRBR0MQAH9EAAYASAAEgLtLvD_BwE ">Accessibility Checker </a> for å 
+                        skjekke om vi overholder WCAG-retningslinjene slik at tilgjengeligheten er best mulig. 
+                        Siteimprove har tre nivåer (A, AA, AAA) som raskt og enkelt identifiserer problemer i tilgjengeligheten som diskriminerer brukere med spesielle behov. 
+                    </p>
+                    <cite><a href="https://developer.mozilla.org/en-US/docs/Learn/Accessibility/What_is_accessibility">What is Accessibility, Hentet fra developer.mozilla 24.02.2022 </a></cite> <br>
+                    
+                </div>
+                
+                <div class="Access Access2">
+                    <h2>Tilgjengeligheten i vår nettside</h2>
+                    <h3>Tilrettelegging for ulike målgrupper</h3>
+                    <p>
+                        Ved hjelp av tilgjengelighet kan vi tilrettelegge for ulike målgrupper med spesielle behov.
+                         Blant annet tenkte vi at det er viktig å ta hensyn til de med svekket syn, slik at det ikke
+                          blir vanskeligheter med å skille mellom ulike farger, og tekst.
+                         Men for å kunne skille mellom ulike farger og tekst trenger vi å ta hensyn til kontraster. Vi bruker derfor 
+                         <a href="https://webaim.org/resources/contrastchecker/">WebAIM </a> Contrast Checker for å sjekke dette.
+                    </p>
+                    <p>
+                        Vi brukte font-familiene <a href="https://www.1001fonts.com/overpass-font.html">overpass regular </a> og <a href="https://www.fontsquirrel.com/fonts/chivo">chivo bold. </a></p>
+                       <p>Linje avstand er 1.5 ganger skriftstørrelsen. Etter en lang undersøkelse fant vi ut at det er best å ta i bruk skriftstørrelsen 24 pixler på alle titlene,
+                         og skriftstørrelsen 20 pixler på all informasjonen generelt. Undersøkelsen viste at disse to skriftstørrelsene vil gi best resultat på tilgjengeligheten til nettsiden,
+                         fordi det vil gjøre det enklere for brukerne å kunne lese teksten.
+                    </p>
+    
+                    <h3>Responsive webdesign </h3>
+                    <p>
+                       <a href="https://www.webfx.com/blog/web-design/what-is-responsive-web-design/">Responsiv webdesign </a>er at ditt nettsted kan tilpasse 
+                       og levere den beste opplevelsen til brukere, 
+                        om det så er datamaskin, pc, nettbrett eller smarttelefon.
+                         RWD-design er en moderne webdesign-tilnærming som lar ditt nettsted bli tilpasset på alle enheter.
+                          Dette mener vi er veldig viktig for tilgjengeligheten slik at alle har tilgang til nettstedet uansett hvilken enhet de bruker, 
+                          og vi har derfor utviklet nettstedet vårt slik også. I HTML har vi brukt semantiske elementer som header, nav, section, footer, main.
+                         Disse elementene gjør at kodene blir mer forståelige for en annen bruker å lese. 
+                    </p> 
+                  
+                </div>
+
+                <div class="Access  Access3">
+                    <h2>Skjermbilder</h2> 
+                    <div ><img src="./bilder/Homepage.Før.png" alt="test til html " style="width: 100%;height: 100%;"></div>
+                    <div><img src="./bilder/Homepage.etter.png" alt="Html.page uten feil"></div>
+                    <div><img src="./bilder/fun.før.png" alt="Fun.page med feil"></div>
+                    <div><img src="./bilder/fun.etter.png" alt="fun page uten feil"></div>
+                    <div><img src="./bilder/test.farger.png" alt="testing til de som har problem med farger"></div>
+                </div>
+        
+                <div class="Access Access4">
+                    <h2>
+                        Testprosessen
+                        </h2>
+                
+                    <p>Brukte W3Schools “Markup Validation Service” for å teste HTML-koder: <cite><a href="https://validator.w3.org/#validate_by_uri+with_options">W3Schools.</a></cite></p>
+                    <p>
+                        Brukte W3Schools “CSS Validation” for å teste CSS-koder: <cite><a href="https://jigsaw.w3.org/css-validator/validator.html.en">W3Schools.</a></cite>
+                        </p>   
+                    <p>Brukte WebAIM´S som verktøy til å teste kontraster mellom farger: <cite><a href="https://webaim.org/resources/contrastchecker/ ">WebAIM´S.</a></cite></p>
+                    <p>
+                        Brukte W3schools til å rette feilene: <cite><a href="https://www.w3schools.com/default.asp ">W3schools.</a></cite>
+                    </p>
+                    <p>Brukte AChecker for å teste tilgjengelighet: <cite><a href="https://achecker.achecks.ca/checker/index.php">AChecker.</a></cite> </p>
+                    <p>Tok alle bildene på alle sider fra <cite><a href="https://unsplash.com/">Unsplash</a></cite></p>
+                    <p>
+                        Benyttet av <cite><a href="https://iconarchive.com/">iconarchive</a></cite> for å få noen ikoner.
+                    </p>
+                    <p>Brukte CSS-gradient til å lage forskjellige nyanser på nettsiden: <cite><a href="https://cssgradient.io/">CSSgradient</a></cite></p>
+                    <h2></h2>
+                    <h3></h3>
+                    <p>
+                        
+                    </p>
+                </div>
+                    <div class="Access Access5">
+                    <h3>Skjermbilde til tilgjengelighet side</h3>
+
+                    <p>Vi har ikke hat noen problemer med testing av tilgjengelighet på vår nettside. 
+                        Ved HTML og CSS testing hadde vi problemer med fil-navn til bildene,
+                         altså vi hadde avstand i fil-navn. Vi har retter opp problemet (se på skjermbildene ovenfor). 
+                       
+                    </p>
+                    <div ><img src="./bilder/tilgjengelig.test.png" alt="test til html " style="width: 100%;height: 100%;"></div>
+                </div>
+               
+        </section>     
+    </main>
+    <footer>
+        <div class="infooter">
+            <h1>Data jenter</h1> 
+            <h2>Institutt for informasjonsteknologi</h2> 
+            <button type="button"
+onclick="document.getElementById('demo').innerHTML = Date()">
+Trykk meg for å vise Dato og Tid </button>
+<p id="demo"></p>
+<h3> <u>Kontakt oss</u> </h3>
+            <ul class=" footer-icon">
+               <li> </li>
+                <li> <a href="https://www.facebook.com/groups/1028315421088784"><img src="./bilder/facebook.png" alt="Icon til Facebook"></a> </li>
+                <li><a href="mailto:omawsshatha@gmail.com"><img src="./bilder/gmail-icon(2).png" alt="gmail-icon"></a></li>
+                <li><a href="https://www.instagram.com/haddil_alshihabi/?fbclid=IwAR2zWkgV4BekH4cfTx6WI4ic0q1L0sFO3TF6iWio431PzAKK1IT8DyHmPq8"><img src="./bilder/Instagram-icon.png" alt=" Instagram-icon"></a></li>
+                <li><a href="https://twitter.com/haddil_01?fbclid=IwAR2yqXMqfuvtrH9JBCH6EEQomZGJAZUp2B9MGbWBhe6fSMrA-lgJe9ICmSI"><img src="./bilder/Twitter-icon(1).png" alt="bilde til Twitter"></a></li>
+            </ul>
+        </div>
+        <div class="footer-botton">
+            <p>Alle ikoner hentet fra <a href="https://iconarchive.com/">iconarchive</a> </p>
+            <p>Alle bildene hentet fra <a href="https://unsplash.com/">Unsplash</a></p>
+            
+        </div>
+    </footer>
+</body>
+</html>
